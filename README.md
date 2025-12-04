@@ -18,4 +18,11 @@ It showcases my skills, projects, achievements and provides an easy way to conta
 - Netlify deployment  
 
 ## 🚀 Live Portfolio
+(Your Netlify link yahan paste kar dena)
 
+## 📂 Project Structure
+portfolio/
+│– index.html
+│– style.css
+│– script.js
+└── assets/
