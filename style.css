@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Space+Mono:wght@400;700&display=swap');
+
+body{
+    font-family: 'Space Grotesk', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0d1117;
+    color: #e6edf3;
+    letter-spacing: 0.3px;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+section {
+    scroll-margin-top: 80px;
+}
+
+
+a{
+    color: #ff4545; /* modern red shade */
+    text-decoration: none;
+    transition: 0.2s;
+}
+a:hover{
+    opacity: 0.8;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #161b22;
+    position: sticky;
+    top: 0;
+    border-bottom: 1px solid #222;
+}
+
+.logo{
+    margin: 0;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+nav a{
+    margin-left: 20px;
+    font-weight: 500;
+}
+
+.intro{
+    text-align: center;
+    padding: 90px 20px;
+}
+
+.intro h1{
+    font-size: 46px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.section{
+    padding: 60px 20px;
+}
+
+.section h2{
+    margin-bottom: 25px;
+    font-size: 28px;
+    font-weight: 600;
+    border-left: 5px solid #ffcc33;
+    padding-left: 12px;
+}
+
+.skill-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 25px;
+}
+
+.skill-box{
+    background-color: #161b22;
+    padding: 22px;
+    border-radius: 10px;
+    text-align: center;
+    border: 1px solid #1f2630;
+    transition: 0.3s;
+}
+.skill-box:hover{
+    border-color: #ffcc33;
+    transform: translateY(-4px);
+}
+
+.project{
+    margin-bottom: 35px;
+    background: #161b22;
+    padding: 25px;
+    border-radius: 10px;
+    border: 1px solid #1f2630;
+    transition: 0.3s;
+}
+.project:hover{
+    border-color: #ff4545;
+    transform: translateY(-4px);
+}
+
+.contact{
+    margin: 7px 0;
+    font-family: 'Space Mono', monospace;
+}
